@@ -1,0 +1,100 @@
+body{
+   margin: 0;
+   padding: 0;
+   background: rgba(128, 0, 128, 0.3);
+   background-size: cover;
+   background-position: center;
+   font-family: sans-serif;
+   background-image: url("background.jpeg");
+}
+
+
+.registerbox {
+  width: 675px;
+  height: 175px;
+  top: 190px;
+  left: 40%;
+  right: 50%;
+  position: absolute;
+  transform: translate (50% , -50%);
+  box-sizing: border-box;
+}
+input[type="name"],[type="password"],[type="text2"],[type="text3"]{
+ position: absolute;
+ outline: none;
+ border: none;
+ width: 250px;
+ height: 35px;
+ border-radius: 15px;
+}
+
+[type="text1"]{
+  top: 210px;
+  left:30px;
+}
+
+[type="password"]{
+top: 270px;
+left: 30px;
+}
+
+[type="text2"]{
+top: 150px;
+left: 30px;
+}
+
+[type="text3"]{
+top: 330px;
+left: 30px;
+}
+
+.btn-group button{
+  position: absolute;
+  top: 100px;
+  left: 40px;
+  width: 100px;
+  height: 36px;
+  border-radius: 15px;
+  font-size: 20px;
+  background: rgba(128, 0, 128, 0.6);
+}
+
+ .btn-field button {
+  position: absolute;
+  top: 100px;
+  left: 170px;
+  width: 100px;
+  height: 36px;
+  border-radius: 15px;
+  font-size: 20px;
+  background: rgba(128, 0, 128, 0.6);
+}
+
+.btn-source {
+  position: absolute;
+  top: 384px;
+  left: 110px;
+  width: 100px;
+  height: 30px;
+  padding-top: 5px;
+  border-radius: 15px;
+  font-size: 20px;
+  background: rgba(128, 0, 128, 0.6);
+  text-align: center;
+}
+.btn-source a {
+text-decoration: none;
+color: #000;
+}
+
+.btn-group button:hover {
+  background: #FFFFFF
+}
+
+.btn-field button:hover {
+  background: #FFFFFF
+}
+
+.btn-source:hover {
+  background: #FFFFFF
+}
